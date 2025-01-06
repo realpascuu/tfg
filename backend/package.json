@@ -1,0 +1,23 @@
+{
+  "name": "c-room-api",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx tsx src/main.ts",
+    "start:watch": "npx tsx watch src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pascual Juan Sánchez",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
